@@ -1,6 +1,6 @@
 <section class="bg-primary">
     <div class="container">
-        <div class="text-end text-white">
+        <div class="text-end text-white py-2">
             <span class="mx-5">DC POWER VISA</span>
             <span>ADDITIONAL DC SITES</span>
         </div>
@@ -8,13 +8,13 @@
 </section>
 <section>
     <div class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-white ">
+            <div class="container-fluid my-3">
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarText">
+                <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Features</a>
@@ -60,4 +60,3 @@
 </section>
     
     
-</section>
